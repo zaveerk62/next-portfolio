@@ -1,6 +1,7 @@
 import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
+import notionLandingPage from '@/assets/images/notionLandingPage.png';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import Image from 'next/image';
@@ -48,7 +49,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className='pb-16 lg:py-24'>
+    <section id='projects' className='pb-16 lg:py-24'>
       <div className='container'>
         <SectionHeader
           eyebrow='Featured Work'
